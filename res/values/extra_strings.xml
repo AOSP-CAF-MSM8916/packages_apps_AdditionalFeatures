@@ -62,4 +62,7 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar buttons</string>
+
 </resources>
