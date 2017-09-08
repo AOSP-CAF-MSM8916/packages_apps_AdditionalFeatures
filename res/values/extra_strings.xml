@@ -20,6 +20,7 @@
     <string name="gestures_title">Gestures</string>
     <string name="powermenu_title">Power menu</string>
     <string name="statusbar_title">Statusbar</string>
+    <string name="lockscreen_title">Lockscreen</string>
     
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
@@ -64,5 +65,11 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 
 </resources>
