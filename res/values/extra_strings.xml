@@ -199,4 +199,8 @@
     <string name="brightness_side_buttons_title">Brightness control buttons</string>
     <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
 
+    <!-- Face auto Unlock -->
+    <string name="face_auto_unlock_title">Face auto unlock</string>
+    <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+
 </resources>
