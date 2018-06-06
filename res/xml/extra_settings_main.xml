@@ -38,6 +38,13 @@
             android:fragment="com.extra.settings.GestureSettings"
             android:icon="@drawable/ic_settings_gesture"/>
 
+        <!-- Volume -->
+        <PreferenceScreen
+            android:key="volume_category"
+            android:title="@string/volume_title" 
+            android:fragment="com.extra.settings.VolumeSettings"
+            android:icon="@drawable/ic_settings_volume"/>
+
         <!-- Power Menu -->
         <PreferenceScreen
             android:key="powermenu__category"
@@ -45,7 +52,7 @@
             android:fragment="com.extra.settings.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Power Menu -->
+        <!-- Lockscreen -->
         <PreferenceScreen
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
