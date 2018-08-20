@@ -17,7 +17,15 @@
     <!-- Main extra pref screens -->
     <string name="extra_settings_title">Additional settings</string>
     <string name="navigationbar_settings_title">Navigation</string>
+    <string name="gestures_title">Gestures</string>
 
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
+
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Navigation gestures</string>
+    <string name="gesture_settings_summary">Use bottom swipe up gestures for navigation</string>
+    <string name="use_bottom_gesture_title">Enable gestures</string>
+    <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
+
 </resources>
