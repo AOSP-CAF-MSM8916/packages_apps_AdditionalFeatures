@@ -17,30 +17,30 @@ package com.extra.settings;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
+import android.os.SystemProperties;
 import android.os.Bundle;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
+mport android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 
-import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.aosp.AospUtils;
 
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.aosp.CustomSettingsPreferenceFragment;
 
-public class NavbarSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener {
+public class NavbarSettings extends CustomSettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
+    private static final String NAVIGATION_BAR_ENABLED = "navigation_bar_enabled";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.extra_navbar_settings);
+        addCustomPreference(findPreference(NAVIGATION_BAR_ENABLED), SECURE_TWO_STATE,
+                getActivity().getResources().getBoolean(
+                com.android.internal.R.bool.config_showNavigationBar) ? 1 : 0);
 
-    }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.AOSP;
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
