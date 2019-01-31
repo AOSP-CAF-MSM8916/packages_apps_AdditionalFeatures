@@ -17,6 +17,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <!-- Statusbar -->
+        <PreferenceScreen
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title" 
+            android:fragment="com.extra.settings.StatusbarSettings"
+            android:icon="@drawable/ic_settings_statusbar"/>
+
         <!-- Navigation -->
         <Preference
             android:key="navigation_options"
