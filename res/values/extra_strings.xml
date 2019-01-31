@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Main extra pref screens -->
     <string name="extra_settings_title">Additional settings</string>
-    <string name="navigationbar_settings_title">Navigation</string>
+    <string name="navigationbar_title">Navigation bar</string>
     <string name="gestures_title">Gestures</string>
     <string name="powermenu_title">Power menu</string>
     <string name="statusbar_title">Statusbar</string>

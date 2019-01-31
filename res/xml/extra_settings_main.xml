@@ -28,7 +28,7 @@
         <Preference
             android:key="navigation_options"
             android:fragment="com.extra.settings.NavbarSettings"
-            android:title="@string/navigationbar_settings_title" 
+            android:title="@string/navigationbar_title" 
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Gestures -->
