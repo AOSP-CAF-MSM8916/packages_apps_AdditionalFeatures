@@ -31,4 +31,11 @@
             android:fragment="com.extra.settings.GestureSettings"
             android:icon="@drawable/ic_settings_gesture"/>
 
+        <!-- Power Menu -->
+        <PreferenceScreen
+            android:key="powermenu__category"
+            android:title="@string/powermenu_title" 
+            android:fragment="com.extra.settings.PowerMenuSettings"
+            android:icon="@drawable/ic_settings_powermenu"/>
+
 </PreferenceScreen>

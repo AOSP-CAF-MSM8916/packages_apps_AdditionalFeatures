@@ -18,7 +18,8 @@
     <string name="extra_settings_title">Additional settings</string>
     <string name="navigationbar_settings_title">Navigation</string>
     <string name="gestures_title">Gestures</string>
-
+    <string name="powermenu_title">Power menu</string>
+    
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
 
