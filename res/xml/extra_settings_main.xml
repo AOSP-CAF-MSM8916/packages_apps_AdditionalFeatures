@@ -26,7 +26,7 @@
 
         <!-- Navigation -->
         <Preference
-            android:key="navigation_options"
+            android:key="navigation_category"
             android:fragment="com.extra.settings.NavbarSettings"
             android:title="@string/navigationbar_title" 
             android:icon="@drawable/ic_settings_navbar"/>
@@ -51,5 +51,12 @@
             android:title="@string/lockscreen_title" 
             android:fragment="com.extra.settings.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/>
+
+        <!-- Buttons -->
+        <Preference
+            android:key="buttons_category"
+            android:fragment="com.extra.settings.ButtonsSettings"
+            android:title="@string/buttons_title" 
+            android:icon="@drawable/ic_settings_buttons"/>
 
 </PreferenceScreen>

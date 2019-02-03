@@ -21,6 +21,7 @@
     <string name="powermenu_title">Power menu</string>
     <string name="statusbar_title">Statusbar</string>
     <string name="lockscreen_title">Lockscreen</string>
+    <string name="buttons_title">Buttons</string>
     
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
