@@ -21,4 +21,5 @@
             android:entries="@array/quick_pulldown_entries"
             android:entryValues="@array/quick_pulldown_values"
             android:persistent="false" />
+
  </PreferenceScreen>  

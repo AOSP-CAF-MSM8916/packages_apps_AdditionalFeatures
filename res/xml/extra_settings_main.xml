@@ -24,6 +24,13 @@
             android:fragment="com.extra.settings.StatusbarSettings"
             android:icon="@drawable/ic_settings_statusbar"/>
 
+        <!-- Quick Settings panel -->
+        <PreferenceScreen
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.extra.settings.QuickSettings"
+            android:icon="@drawable/ic_settings_quicksettings"/>
+
         <!-- Navigation -->
         <Preference
             android:key="navigation_category"
@@ -54,7 +61,7 @@
 
         <!-- Power Menu -->
         <PreferenceScreen
-            android:key="powermenu__category"
+            android:key="powermenu_category"
             android:title="@string/powermenu_title" 
             android:fragment="com.extra.settings.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
