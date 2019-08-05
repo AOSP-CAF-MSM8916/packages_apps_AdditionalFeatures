@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 AOSP
+ * Copyright (C) 2019 AOSP-CAF-MSM8916 Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.extra.settings;
+package com.teamone.additional.features;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;

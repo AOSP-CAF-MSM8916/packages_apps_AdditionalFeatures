@@ -1,5 +1,5 @@
 /*
- *  Copyright (C) 2016 The Dirty Unicorns Project
+ *  Copyright (C) 2016 The AOSP-CAF-MSM8916 Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@
  *
  */
 
-package com.extra.settings;
+package com.teamone.additional.features;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;

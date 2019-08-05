@@ -1,5 +1,6 @@
 /*
  *  Copyright (C) 2018 The OmniROM Project
+ *  Copyright (C) 2019 The AOSP-CAF-MSM8916 Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.extra.settings;
+package com.teamone.additional.features;
 
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -24,7 +25,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
-import com.extra.settings.preferences.CustomSeekBarPreference;
+import com.teamone.additional.features.preferences.CustomSeekBarPreference;
 
 import android.content.ContentResolver;
 import android.content.Context;

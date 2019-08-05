@@ -1,5 +1,6 @@
  /*
  * Copyright (C) 2014-2015 The CyanogenMod Project
+ * Copyright (C) 2019 The AOSP-CAF-MSM8916 Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.extra.settings;
+package com.teamone.additional.features;
 
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -30,8 +31,8 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.extra.settings.preferences.SystemSettingSwitchPreference;
-import com.extra.settings.preferences.CustomSeekBarPreference;
+import com.teamone.additional.features.preferences.SystemSettingSwitchPreference;
+import com.teamone.additional.features.preferences.CustomSeekBarPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 

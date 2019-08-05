@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2016 The Dirty Unicorns Project
+ * Copyright (C) 2019 The AOSP-CAF-MSM8916 Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License
  */
 
-package com.extra.settings.preferences;
+package com.teamone.additional.features.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;

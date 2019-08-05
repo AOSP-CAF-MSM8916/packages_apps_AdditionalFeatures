@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 AOSP
+ * Copyright (C) 2019 The AOSP-CAF-MSM8916 Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.extra.settings;
+package com.teamone.additional.features;
 
 import android.os.Bundle;
 import android.support.v7.preference.PreferenceScreen;
